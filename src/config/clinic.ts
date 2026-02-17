@@ -1,307 +1,363 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Centro Fonemas LOGOPEDIA y PEDAGOGÍA",
+  logo: "/images/logo.png",
+  tagline: "Logopedia y pedagogía familiar en Cuenca",
+  description: "Centro Fonemas LOGOPEDIA y PEDAGOGÍA es un centro especializado en logopedia infantil y pedagogía en Cuenca. Nuestro equipo de profesionales altamente cualificados ofrece tratamiento personalizado del habla, lenguaje, lectoescritura y dificultades de aprendizaje. Con un enfoque cercano y familiar, trabajamos con niños y adultos para mejorar su comunicación. Valorados con 5 estrellas por nuestras familias.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#99c7d3",
+    secondary: "#2e3c3f",
+    accent: "#eaa8cf",
+    neutral: "#f7fbfb"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "669 25 37 05",
+  whatsapp: "+34669253705",
+  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros servicios de logopedia.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "C. de los Novios, 8, 16400 Tarancón, Cuenca, España",
+    city: "Cuenca",
+    province: "Cuenca",
+    postalCode: "16400",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=7637477415151596774&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Centro%20Fonemas%20LOGOPEDIA%20y%20PEDAGOG%C3%8DA%20%4040.0074%2C-3.01483&z=16&output=embed",
+  coordinates: {
+    lat: 40.0074,
+    lng: -3.01483
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes",
+      hours: "15:00–21:00"
+    },
+    {
+      days: "martes",
+      hours: "9:00–13:00, 15:00–21:00"
+    },
+    {
+      days: "miércoles",
+      hours: "15:00–21:00"
+    },
+    {
+      days: "jueves",
+      hours: "9:00–13:00, 15:00–21:00"
+    },
+    {
+      days: "viernes",
+      hours: "15:00–21:00"
+    },
+    {
+      days: "sábado - domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 5,
+    count: 18,
+    url: "https://maps.google.com/?cid=7637477415151596774&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Bego Virholgado",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Excepcionales profesionales, trato amable y familiar y trabajan con los niños increíblemente!!",
+        date: "Hace 4 años"
       },
       {
-        author: "Javier Padilla",
+        author: "maria bachiller",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Muy recomendable, trato fenomenal tanto con la familia como con el niño.",
+        date: "Hace 2 años"
       },
       {
-        author: "Melanie Ponce",
+        author: "Javier Cuevas",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Trato profesional y cercano. Gracias Noelia por hacerlo tan fácil",
+        date: "Hace 3 meses"
       },
       {
-        author: "María Teresa Salguero",
+        author: "Dolo Espada",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "Muy bien, personal muy cualificado, buenos profesionales.",
+        date: "Hace 4 años"
       },
-    ],
+      {
+        author: "Daniel Torrijos",
+        rating: 5,
+        text: "Excelente centro y maravillosas profesionales",
+        date: "Hace 7 años"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "logopedia-infantil",
+      name: "Logopedia Infantil",
+      description: "Evaluación y tratamiento especializado de trastornos del habla, lenguaje y comunicación en niños. Trabajamos con metodologías adaptadas a cada edad y necesidad, creando un ambiente lúdico y motivador. Nuestro enfoque familiar incluye a los padres en todo el proceso terapéutico.",
+      benefits: [
+        "Mejora del habla y pronunciación",
+        "Desarrollo del lenguaje expresivo y comprensivo",
+        "Ambiente familiar y cercano que motiva a los niños"
+      ],
+      icon: "Baby"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "pedagogia-terapeutica",
+      name: "Pedagogía Terapéutica",
+      description: "Intervención educativa personalizada para niños con dificultades de aprendizaje. Abordamos problemas de atención, comprensión y adaptación escolar. Trabajamos en coordinación con familias y centros educativos para garantizar el éxito académico.",
+      benefits: [
+        "Mejora del rendimiento escolar",
+        "Refuerzo de habilidades de estudio",
+        "Seguimiento coordinado con la familia"
+      ],
+      icon: "BookOpen"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "lectoescritura",
+      name: "Lectoescritura y Dislexia",
+      description: "Tratamiento especializado de dificultades en lectura y escritura, incluyendo dislexia y disgrafía. Utilizamos métodos específicos para mejorar la comprensión lectora, la fluidez y la expresión escrita. Adaptamos el ritmo a cada niño para recuperar su confianza.",
+      benefits: [
+        "Mejora de la velocidad y comprensión lectora",
+        "Corrección de errores de escritura",
+        "Aumento de la confianza en el ámbito escolar"
+      ],
+      icon: "BookOpen"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "logopedia-adultos",
+      name: "Logopedia para Adultos",
+      description: "Rehabilitación del habla y la voz en adultos tras ictus, cirugías, traumatismos o patologías neurológicas. Tratamiento personalizado de afasias, disartrias y otros trastornos de comunicación. Recupera tu capacidad de expresión con profesionales cualificados.",
+      benefits: [
+        "Recuperación del habla tras daño neurológico",
+        "Mejora de la articulación y claridad vocal",
+        "Trato cercano y respetuoso con el ritmo personal"
+      ],
+      icon: "User"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "terapia-voz",
+      name: "Terapia de Voz",
+      description: "Tratamiento de disfonías, nódulos vocales y otros trastornos de la voz. Especialmente indicado para profesionales que usan su voz como herramienta de trabajo: docentes, cantantes, locutores. Técnicas de higiene vocal y reeducación respiratoria.",
+      benefits: [
+        "Eliminación de la ronquera y fatiga vocal",
+        "Prevención de lesiones en las cuerdas vocales",
+        "Técnicas para un uso saludable de la voz"
+      ],
+      icon: "Mic"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "tartamudez",
+      name: "Tratamiento de la Tartamudez",
+      description: "Terapia especializada para mejorar la fluidez verbal y reducir los bloqueos del habla. Trabajamos tanto los aspectos técnicos como la confianza comunicativa. Enfoque integral que incluye técnicas de respiración, control del ritmo y gestión emocional.",
+      benefits: [
+        "Mayor fluidez y naturalidad al hablar",
+        "Reducción de la ansiedad comunicativa",
+        "Estrategias prácticas para el día a día"
+      ],
+      icon: "MessageCircle"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "disfagia",
+      name: "Tratamiento de la Disfagia",
+      description: "Evaluación y rehabilitación de dificultades para tragar de forma segura. Trabajamos con pacientes que han sufrido daño neurológico, cirugías o presentan problemas degenerativos. Mejoramos la seguridad y eficacia de la deglución.",
+      benefits: [
+        "Deglución más segura y sin atragantamientos",
+        "Mejora de la calidad de vida y nutrición",
+        "Orientación familiar sobre texturas y posturas"
+      ],
+      icon: "Heart"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "atencion-temprana",
+      name: "Atención Temprana",
+      description: "Intervención precoz en niños de 0 a 6 años con dificultades en el desarrollo del lenguaje y la comunicación. Estimulación del lenguaje oral, atención y habilidades comunicativas. El trabajo temprano es fundamental para prevenir dificultades futuras.",
+      benefits: [
+        "Estimulación del desarrollo comunicativo",
+        "Prevención de dificultades escolares",
+        "Orientación a familias desde el inicio"
+      ],
+      icon: "Baby"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Contacta con nosotros",
+      description: "Llámanos al 669 25 37 05 o escríbenos por WhatsApp. Te atenderemos de forma cercana y resolveremos todas tus dudas sobre nuestros servicios de logopedia y pedagogía en Cuenca."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Primera valoración",
+      description: "Realizamos una evaluación completa y personalizada del habla, lenguaje, voz o dificultades de aprendizaje. Conocemos a fondo tu caso o el de tu hijo para diseñar el tratamiento más adecuado."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Tratamiento personalizado",
+      description: "Iniciamos las sesiones de logopedia o pedagogía adaptadas a tus necesidades. Trabajamos de forma regular con metodologías efectivas en un ambiente familiar y motivador que facilita el progreso."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Seguimiento y orientación familiar",
+      description: "Hacemos seguimiento continuo de los avances y mantenemos comunicación constante con la familia. Te orientamos para que puedas reforzar en casa el trabajo realizado en consulta y consolidar los logros."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Profesionales altamente cualificados",
+      description: "Nuestro equipo de logopedas y pedagogos cuenta con formación especializada y amplia experiencia. Aplicamos las metodologías más efectivas y actualizadas para garantizar los mejores resultados en cada tratamiento.",
+      icon: "Award"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Trato cercano y familiar",
+      description: "En Centro Fonemas te sentirás como en casa. Nuestras familias destacan especialmente nuestro trato amable, cercano y profesional. Trabajamos en un ambiente acogedor donde niños y adultos se sienten cómodos y motivados.",
+      icon: "Heart"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Valorados con 5 estrellas",
+      description: "Nuestros pacientes nos han valorado con 5 estrellas en sus 18 reseñas de Google. Esta confianza refleja nuestro compromiso con la excelencia profesional y la satisfacción de las familias que confían en nosotros.",
+      icon: "Star"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Seguimiento personalizado",
+      description: "Cada caso es único y merece atención individualizada. Realizamos seguimiento continuo de los avances, mantenemos comunicación constante con las familias y coordinamos con centros educativos cuando es necesario para asegurar el éxito del tratamiento.",
+      icon: "Users"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Noelia",
+      role: "Logopeda",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Logopedas comprometidos con la comunicación. En Centro Fonemas LOGOPEDIA y PEDAGOGÍA ayudamos a mejorar el habla, el lenguaje y la comunicación en todas las edades."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/gallery/1.webp",
+      alt: "Centro Fonemas LOGOPEDIA y PEDAGOGÍA - Imagen 1"
+    },
+    {
+      src: "/images/hero.webp",
+      alt: "Centro Fonemas LOGOPEDIA y PEDAGOGÍA - Imagen 2"
+    },
+    {
+      src: "/images/gallery/3.webp",
+      alt: "Centro Fonemas LOGOPEDIA y PEDAGOGÍA - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "Centro Fonemas LOGOPEDIA y PEDAGOGÍA - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "Centro Fonemas LOGOPEDIA y PEDAGOGÍA - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "Centro Fonemas LOGOPEDIA y PEDAGOGÍA - Imagen 6"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Qué problemas trata Centro Fonemas?",
+      answer: "En Centro Fonemas LOGOPEDIA y PEDAGOGÍA tratamos trastornos del habla y lenguaje en niños y adultos, dificultades de lectoescritura y dislexia, problemas de voz, tartamudez, dificultades de aprendizaje y disfagia. También ofrecemos atención temprana y pedagogía terapéutica. Nuestro equipo está altamente cualificado para abordar cada caso de forma personalizada."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Cuánto dura una sesión de logopedia?",
+      answer: "Las sesiones de logopedia en Centro Fonemas tienen una duración aproximada de 45 minutos a 1 hora, dependiendo de la edad del paciente y el tipo de tratamiento. En el caso de los niños más pequeños, adaptamos la duración para mantener su atención y motivación. Durante la primera valoración te explicaremos la frecuencia y duración recomendada para tu caso."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Trabajáis con niños pequeños?",
+      answer: "Sí, en Centro Fonemas somos especialistas en logopedia infantil y atención temprana. Trabajamos con niños desde edades muy tempranas utilizando metodologías lúdicas y motivadoras. Nuestras familias destacan nuestro trato cercano y familiar, y cómo conseguimos que los niños disfruten de las sesiones mientras avanzan en su desarrollo comunicativo."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Cómo puedo pedir cita en Centro Fonemas?",
+      answer: "Puedes contactar con nosotros llamando al 669 25 37 05 o enviando un mensaje por WhatsApp. Te atenderemos de forma cercana y profesional, resolveremos tus dudas y agendaremos tu primera cita de valoración en el horario que mejor te venga. Estamos en Cuenca y estaremos encantados de ayudarte."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Ofrecéis orientación a las familias?",
+      answer: "Absolutamente. En Centro Fonemas trabajamos con un enfoque familiar, manteniendo comunicación constante con los padres y orientándoles sobre cómo reforzar en casa el trabajo de las sesiones. Creemos que la implicación familiar es fundamental para el éxito del tratamiento, por eso os acompañamos en todo el proceso y resolvemos todas vuestras dudas."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Tratáis también a adultos?",
+      answer: "Sí, en Centro Fonemas ofrecemos logopedia para adultos. Tratamos problemas de habla tras ictus, traumatismos o cirugías, trastornos de la voz, disfagia y otras dificultades de comunicación. Nuestro trato es profesional, cercano y respetuoso, adaptando siempre el ritmo de trabajo a las necesidades de cada persona."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Qué diferencia a Centro Fonemas de otras clínicas?",
+      answer: "Centro Fonemas cuenta con profesionales altamente cualificados y un trato cercano y familiar que nuestras familias valoran con 5 estrellas. Combinamos la máxima profesionalidad con un ambiente acogedor donde tanto niños como adultos se sienten cómodos. Además, trabajamos de forma coordinada con familias y centros educativos para garantizar los mejores resultados."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Cuándo veré resultados en el tratamiento?",
+      answer: "Los tiempos varían según cada caso, pero en Centro Fonemas realizamos un seguimiento continuo para evaluar los avances de forma regular. Muchas familias observan mejoras en las primeras semanas, especialmente en la motivación y confianza de los niños. Durante todo el proceso te mantendremos informado de la evolución y ajustaremos el tratamiento según las necesidades."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Centro Fonemas LOGOPEDIA y PEDAGOGÍA",
+    defaultTitle: "Centro Fonemas - Logopedia y Pedagogía en Cuenca",
+    defaultDescription: "Centro Fonemas: logopedia infantil y adultos, pedagogía terapéutica y lectoescritura en Cuenca. Profesionales cualificados, trato familiar. 5★ en Google. Llama al 669 25 37 05",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "logopedia Cuenca",
+      "logopeda infantil Cuenca",
+      "pedagogía terapéutica Cuenca",
+      "Centro Fonemas Cuenca",
+      "dislexia Cuenca",
+      "lectoescritura Cuenca",
+      "logopedia adultos Cuenca",
+      "tratamiento tartamudez Cuenca",
+      "terapia voz Cuenca",
+      "disfagia Cuenca",
+      "atención temprana Cuenca",
+      "logopeda Cuenca"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Centro Fonemas LOGOPEDIA y PEDAGOGÍA",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "C. de los Novios, 8, 16400 Tarancón, Cuenca, España, Cuenca, Cuenca"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
-  ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
-  statsLabel: "Clientas",
-  schemaType: "BeautySalon",
+  heroHeadline: [
+    "Tu Centro de",
+    "Logopedia",
+    "en Cuenca"
+  ],
+  heroDescription: "En Centro Fonemas ofrecemos atención logopédica y pedagógica especializada en Cuenca. Con un trato profesional, cercano y familiar, ayudamos a niños y adultos a superar sus dificultades de comunicación, habla, lenguaje y aprendizaje. Nuestro equipo te acompaña en cada paso del proceso.",
+  specialty: "Logopedia infantil y pedagogía",
+  ctaLabel: "Mejor Comunicación",
+  ctaHeadline: "¿Necesitas ayuda con el habla o el aprendizaje?",
+  ctaDescription: "Contacta con Centro Fonemas y solicita tu primera valoración. Te atenderemos de forma cercana y profesional para encontrar la mejor solución para ti o tu familia.",
+  statsLabel: "Pacientes",
+  schemaType: "SpeechPathology",
   sectionCopy: {
     servicesLabel: "Nuestros Servicios",
     servicesTitle: "Tratamientos especializados",
-    servicesDescription: "Técnicas avanzadas de estética y belleza para realzar tu imagen y cuidar de ti.",
+    servicesDescription: "Soluciones profesionales adaptadas a tus necesidades de salud.",
     processLabel: "Cómo Trabajamos",
-    processTitle: "Tu camino hacia la belleza en 4 pasos",
+    processTitle: "Tu camino hacia la recuperación en 4 pasos",
     processDescription: "Un proceso simple y transparente diseñado para tu comodidad.",
     whyUsLabel: "Por Qué Elegirnos",
-    whyUsTitle: "Tu belleza, nuestra pasión",
-    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para realzar tu belleza natural.",
+    whyUsTitle: "Tu salud, nuestra prioridad",
+    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para cuidar de tu salud.",
     reviewsLabel: "Opiniones",
-    reviewsTitle: "Lo que dicen nuestras clientas",
+    reviewsTitle: "Lo que dicen nuestros pacientes",
     galleryLabel: "Instalaciones",
-    galleryTitle: "Conoce nuestro centro",
-    galleryDescription: "Un espacio diseñado para tu bienestar y relajación",
+    galleryTitle: "Conoce nuestra clínica",
+    galleryDescription: "Un espacio diseñado para tu bienestar y recuperación",
     faqLabel: "FAQ",
     faqTitle: "Preguntas frecuentes",
-    faqDescription: "Resolvemos las dudas más comunes de nuestras clientas.",
+    faqDescription: "Resolvemos las dudas más comunes de nuestros pacientes.",
     locationLabel: "Ubicación",
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
-    teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamTitle: "Profesionales especializados",
+    teamDescription: "Experiencia y dedicación al servicio de tu salud"
+  }
 }
 
 export type Clinic = typeof clinic
